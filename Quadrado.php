@@ -9,5 +9,5 @@ function somaQuadrados($n){
     return $soma;
 }
 
-echo somaQuadrados(5):
+echo somaQuadrados(5);
 ?>
