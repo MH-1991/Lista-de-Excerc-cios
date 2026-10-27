@@ -1,7 +1,7 @@
 <?php
 function fibonacci($n){
     $anterior = 0;
-    $atual = 1;
+    $atual = 2;
 
     for ($i = 0; $i < $n; $i++){
         $proximo = $anterior + $atual;
