@@ -12,6 +12,10 @@ function fibonacci($n){
 }
 for($n = 0; $n <10; $n++){
     echo fibonacci($n);
+
+    if($n < 9){
+        echo ",";
+    }
 }
 
 ?>
